@@ -10,9 +10,9 @@
 
 public class Resta {
 	
-	private int resultadoInt=0;
-	private double resultado=0;
-	private double valorAcumulado=0;
+	private static int resultadoInt=0;
+	private static double resultado=0;
+	public static double valorAcumuladoResta=0;
 	
 	/**
 	 * Método que realiza la operación de restar dos números reales.
@@ -20,7 +20,7 @@ public class Resta {
 	 * @param num2 representa el segundo numero de tipo double
 	 * @return devuelve el resultado de la operación num1-num2, y será de tipo double.
 	 */
-	public double Resta2Reales(double num1, double num2) {
+	public static double Resta2Reales(double num1, double num2) {
 		resultado=num1-num2;
 		return resultado;
 	}
@@ -31,7 +31,7 @@ public class Resta {
 	 * @param num2 representa el segundo numero de tipo entero.
 	 * @return devuelve el resultado de la operación num1-num2, y será de tipo entero
 	 */
-	public int Resta2Enteros(int num1, int num2) {
+	public static int Resta2Enteros(int num1, int num2) {
 		resultadoInt=num1-num2;
 		return resultadoInt;
 	}
@@ -43,7 +43,7 @@ public class Resta {
 	 * @param num3 número que se restará al resultado de la resta de num1 menos num2
 	 * @return devuelve el resultado de la operación num1-num2-num3, y será de tipo double
 	 */
-	public double Resta3Reales(double num1, double num2, double num3) {
+	public static double Resta3Reales(double num1, double num2, double num3) {
 		resultado=num1-num2-num3;
 		return resultado;
 	}
@@ -53,7 +53,7 @@ public class Resta {
 	  creado en la clase resta.
 	 * @param num representa valor numerico a acumular
 	 */
-	public void RestaAcumulada(double num) {
-		valorAcumulado=valorAcumulado - num;
+	public static void RestaAcumulada(double num) {
+		valorAcumuladoResta=valorAcumuladoResta - num;
 	}
 }
