@@ -12,8 +12,8 @@ public class Calculadora {
 		double num1=3;
 		double num2=2;
 		double num3=1;
-		int num4=4;
-		int num5=8;
+		int num4=8;
+		int num5=4;
 		
 		//Posible main para probar los métodos de resta 
 		System.out.println(Resta.Resta2Reales(num1,num2));
@@ -27,6 +27,12 @@ public class Calculadora {
 		System.out.println(Resta.Resta3Reales(num1,num2,num3));
 		Resta.RestaAcumulada(Resta.Resta3Reales(num1,num2,num3));
 		System.out.println(Resta.valorAcumuladoResta);
+		
+		//Posible main para probar los métodos del cociente 
+		System.out.println(Cociente.divisionDosReales(num1,num2));
+		System.out.println(Cociente.divisionDosEnteros(num4,num5));
+		System.out.println(Cociente.inverso(num5));
+		System.out.println(Cociente.raiz(num5));
 	
 	}
 

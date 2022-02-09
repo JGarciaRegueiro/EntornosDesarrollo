@@ -1,0 +1,42 @@
+[33mcommit b3319ba11700a2ec15cce42a393a7a4e9f47ee2d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Jorge García Regueiro <jorge.garcia@bahiasoftware.es>
+Date:   Wed Feb 9 20:12:45 2022 +0100
+
+    merge
+
+[33mcommit 64fe1399246665307c0e23a9277e68693a13e03b[m[33m ([m[1;32mramaJorge[m[33m)[m
+Author: Jorge García Regueiro <jorge.garcia@bahiasoftware.es>
+Date:   Wed Feb 9 20:11:34 2022 +0100
+
+    cambios en clase resta y definición de la llamada a los métodos en el main
+
+[33mcommit 46b428e803d61f3ebfc1b1b289fc30db296466da[m
+Merge: b2a9f99 ed84f58
+Author: Jorge García Regueiro <jorge.garcia@bahiasoftware.es>
+Date:   Wed Feb 9 19:32:44 2022 +0100
+
+    Merge branch 'ramaJorge'
+
+[33mcommit b2a9f9957c3ecad1d3ebf656036cb5365d2e328c[m
+Author: Jorge García Regueiro <jorge.garcia@bahiasoftware.es>
+Date:   Wed Feb 9 19:32:33 2022 +0100
+
+    Actualizando clase resta
+
+[33mcommit ed84f58452f98468ec540ca92dc91016341a83eb[m
+Author: Jorge García Regueiro <jorge.garcia@bahiasoftware.es>
+Date:   Wed Feb 9 19:26:52 2022 +0100
+
+    Cambios en clase resta
+
+[33mcommit 6582b0390847497f3b5372694ce21177ad14ad9e[m
+Author: Jorge García Regueiro <jorge.garcia@bahiasoftware.es>
+Date:   Tue Feb 8 21:59:53 2022 +0100
+
+    Subiendo proyecto Calculadora
+
+[33mcommit d03797d887e7deaee0465c308757f5709e633a1a[m
+Author: Jorge García Regueiro <jorge.garcia@bahiasoftware.es>
+Date:   Tue Feb 8 21:37:54 2022 +0100
+
+    Iniciando...

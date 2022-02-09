@@ -7,6 +7,8 @@
  */
 public class Cociente {
 	
+	private static double resultado=0;
+	
 	/**
 	 * Método que calcula la división de dos números reales. Devuelve otro número real con la solución.
 	 * @param numerador representa el número real que se utiliza de numerador en la división.
@@ -14,8 +16,9 @@ public class Cociente {
 	 * @return devuelve un número real con el resultado de la división del numerador/denominador. 
 	 * @throws java.lang.ArithmeticException Si el denominador es cero el método dará error y lanzará una excepción.
 	 */
-	public double divisionDosReales (double numerador, double denominador) {
-		return 0;
+	public static double divisionDosReales (double numerador, double denominador) {
+		resultado=numerador/denominador;
+		return resultado;
 	}
 	
 	/**
@@ -26,8 +29,9 @@ public class Cociente {
 	 * se soportan resultados con números no exactos.
 	 * @throws java.lang.ArithmeticException Si el denominador es cero el método dará error y lanzará una excepción.
 	 */
-	public double divisionDosEnteros (int num1, int denom1) {
-		return 0 ;
+	public static double divisionDosEnteros (int num1, int denom1) {
+		resultado=num1/denom1;
+		return resultado ;
 	}
 	
 	/**
@@ -36,8 +40,9 @@ public class Cociente {
 	 * @return devuelve un número real con el inverso de numero (1/numero). 
 	 * @throws java.lang.ArithmeticException Si el numero es cero el método dará error y lanzará una excepción.
 	 */
-	public double inverso (double numero) {
-		return 0 ;
+	public static double inverso (double numero) {
+		resultado=1/numero;
+		return resultado ;
 	}
 	
 	/**
@@ -46,7 +51,8 @@ public class Cociente {
 	 * @return devuelve un número real con el resultado de la raíz. El resultado podría dar error en caso de que la calculadora admitiera números negativos.
 	 * @throws java.lang.ArithmeticException Si calculadora admite números negativos, dará un error al ejecutar y se lanzará una excepción.
 	 */
-	public double raiz (double numero) {
-		return 0 ;
+	public static double raiz (double numero) {
+		resultado=Math.sqrt(numero);
+		return resultado ;
 	}
 }
