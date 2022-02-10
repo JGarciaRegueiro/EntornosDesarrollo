@@ -15,17 +15,23 @@ public class Producto {
 	 * @return devuelve un número real con el resultado del producto de num1xnum2.
 	 */
 	public double Producto2Reales(double num1, double num2) {
-		return 0;
+		double resultado = 0;
+		
+		resultado = num1 * num2;
+		return resultado;
 	}
 	
 	/**
-	 * Método que calcula el producto de dos números reales. Devuelve otro número real con la solución.
+	 * Método que calcula el producto de dos números reales. Devuelve otro número entero con la solución.
 	 * @param num1 representa el primer número entero que se utiliza para calcular el producto.
 	 * @param num2 representa el segundo número entero que se utiliza para calcular el producto.
-	 * @return devuelve un número real con el resultado del producto de num1xnum2.
+	 * @return devuelve un número entero con el resultado del producto de num1xnum2.
 	 */
 	public int Producto2Enteros(int num1, int num2) {
-		return 0;
+		int resultado = 0;
+		
+		resultado = num1 * num2;
+		return resultado;
 	}
 
 	/**
@@ -37,7 +43,10 @@ public class Producto {
 	 * @throws java.lang.ArithmeticException Si son números muy grandes, dará error el programa y lanzará una excepción.
 	 */
 	public double Producto3Reales(double num1, double num2, double num3) {
-		return 0;
+		double resultado = 0 ;
+		
+		resultado = num1 * num2 * num3;
+		return resultado;
 	}
 
 	/**
@@ -48,6 +57,8 @@ public class Producto {
 	 * @throws java.lang.ArithmeticException Si base y exponente son números muy grandes, dará error el programa y lanzará una excepción . 
 	 */
 	public double Potencia(double base, double exponente) {
-		return 0;
+		double resultado= 0 ;
+		resultado = Math.pow(base, exponente);
+		return resultado;
 	}
 }
