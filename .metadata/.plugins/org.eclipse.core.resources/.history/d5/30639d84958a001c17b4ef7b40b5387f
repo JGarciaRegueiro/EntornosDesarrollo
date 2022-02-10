@@ -1,0 +1,53 @@
+/**
+	 * Esta clase implementará todos los métodos que están relacionados 
+	 * con el producto y cáclulo de la potencia de un número.
+	 *
+	 * @author Marta Aparicio && Daniel Jiménez && Jorge García
+	 * @version 1.0
+	 */
+
+public class Producto {
+	
+	/**
+	 * Metodo que calcula el producto de dos números reales. Devuelve otro número real con la solución.
+	 * @param num1 representa el primer número real que se utiliza para calcular el producto.
+	 * @param num2 representa el segundo número real que se utiliza para calcular el producto.
+	 * @return devuelve un número real con el resultado del producto de num1xnum2.
+	 */
+	public double Producto2Reales(double num1, double num2) {
+		return 0;
+	}
+	
+	/**
+	 * Método que calcula el producto de dos números reales. Devuelve otro número real con la solución.
+	 * @param num1 representa el primer número entero que se utiliza para calcular el producto.
+	 * @param num2 representa el segundo número entero que se utiliza para calcular el producto.
+	 * @return devuelve un número real con el resultado del producto de num1xnum2.
+	 */
+	public int Producto2Enteros(int num1, int num2) {
+		return 0;
+	}
+
+	/**
+	 * Método que calcula el producto de tres números reales. Devuelve otro número real con la solución.
+	 * @param num1 representa el primer número real que se utiliza para calcular el producto.
+	 * @param num2 representa el segundo número real que se utiliza para calcular el producto.
+	 * @param num3 representa el tercer número real que se ultiliza para calcular el producto.
+	 * @return devuelve un número real con el resultado del producto de num1xnum2xnum3.
+	 * @throws java.lang.ArithmeticException Si son números muy grandes, dará error el programa y lanzará una excepción.
+	 */
+	public double Producto3Reales(double num1, double num2, double num3) {
+		return 0;
+	}
+
+	/**
+	 * Método que calcula la potencia de un número. Devuelve un número real con el resultado de la potencia.
+	 * @param base representa el número base sobre el que se va a calcular la potencia.
+	 * @param exponente representa el exponente al que se va a elevar la base para obtener la potencia.
+	 * @return devuelve un número real con el resultado de la potencia (base^exponente).  
+	 * @throws java.lang.ArithmeticException Si base y exponente son números muy grandes, dará error el programa y lanzará una excepción . 
+	 */
+	public double Potencia(double base, double exponente) {
+		return 0;
+	}
+}
