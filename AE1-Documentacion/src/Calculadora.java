@@ -9,11 +9,17 @@ public class Calculadora {
 	public static void main(String[] args) {
 		
 		//Variables necesarias para realizar las operaciones
-		double num1=3;
-		double num2=2;
-		double num3=1;
+		double num1=3.3;
+		double num2=2.4;
+		double num3=1.5;
+		double base= 2.1;
+		double exponente = 3.4;
 		int num4=8;
 		int num5=4;
+		
+		
+		System.out.println("-------------------------------------CALCULADORA-------------------------------------");
+		
 		
 		//Posible main para probar los métodos de resta 
 		System.out.println(Resta.Resta2Reales(num1,num2));
@@ -28,11 +34,20 @@ public class Calculadora {
 		Resta.RestaAcumulada(Resta.Resta3Reales(num1,num2,num3));
 		System.out.println(Resta.valorAcumuladoResta);
 		
+		//Posible main para probar los métodos del producto
+		System.out.println(Producto.producto2Reales(num1,num2));
+		System.out.println(Producto.producto2Enteros(num4, num5));
+		System.out.println(Producto.producto3Reales(num1, num2, num3));
+		System.out.println(Producto.potencia(base,exponente));
+		
+		
 		//Posible main para probar los métodos del cociente 
 		System.out.println(Cociente.divisionDosReales(num1,num2));
 		System.out.println(Cociente.divisionDosEnteros(num4,num5));
 		System.out.println(Cociente.inverso(num5));
 		System.out.println(Cociente.raiz(num5));
+		
+		
 	
 	}
 

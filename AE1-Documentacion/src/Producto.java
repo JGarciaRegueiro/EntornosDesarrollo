@@ -8,13 +8,14 @@
 
 public class Producto {
 	
+	
 	/**
 	 * Metodo que calcula el producto de dos números reales. Devuelve otro número real con la solución.
 	 * @param num1 representa el primer número real que se utiliza para calcular el producto.
 	 * @param num2 representa el segundo número real que se utiliza para calcular el producto.
 	 * @return devuelve un número real con el resultado del producto de num1xnum2.
 	 */
-	public double Producto2Reales(double num1, double num2) {
+	public static double producto2Reales(double num1, double num2) {
 		double resultado = 0;
 		
 		resultado = num1 * num2;
@@ -27,7 +28,7 @@ public class Producto {
 	 * @param num2 representa el segundo número entero que se utiliza para calcular el producto.
 	 * @return devuelve un número entero con el resultado del producto de num1xnum2.
 	 */
-	public int Producto2Enteros(int num1, int num2) {
+	public static int producto2Enteros(int num1, int num2) {
 		int resultado = 0;
 		
 		resultado = num1 * num2;
@@ -42,10 +43,14 @@ public class Producto {
 	 * @return devuelve un número real con el resultado del producto de num1xnum2xnum3.
 	 * @throws java.lang.ArithmeticException Si son números muy grandes, dará error el programa y lanzará una excepción.
 	 */
-	public double Producto3Reales(double num1, double num2, double num3) {
+	public static double producto3Reales(double num1, double num2, double num3) {
 		double resultado = 0 ;
-		
+		try {
 		resultado = num1 * num2 * num3;
+		}catch(Exception e) {
+			System.out.println("Error: los números a multiplicar son demasiado grandes");
+		}
+		
 		return resultado;
 	}
 
@@ -56,7 +61,7 @@ public class Producto {
 	 * @return devuelve un número real con el resultado de la potencia (base^exponente).  
 	 * @throws java.lang.ArithmeticException Si base y exponente son números muy grandes, dará error el programa y lanzará una excepción . 
 	 */
-	public double Potencia(double base, double exponente) {
+	public static double potencia(double base, double exponente) {
 		double resultado= 0 ;
 		resultado = Math.pow(base, exponente);
 		return resultado;
