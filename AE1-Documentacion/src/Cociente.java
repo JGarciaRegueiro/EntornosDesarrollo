@@ -17,7 +17,12 @@ public class Cociente {
 	 * @throws java.lang.ArithmeticException Si el denominador es cero el método dará error y lanzará una excepción.
 	 */
 	public static double divisionDosReales (double numerador, double denominador) {
-		resultado=numerador/denominador;
+		try {
+			resultado=numerador/denominador;
+		}catch(Exception e) {
+			System.out.println("Error el denominador añadido es 0");
+		}
+		
 		return resultado;
 	}
 	
@@ -30,7 +35,12 @@ public class Cociente {
 	 * @throws java.lang.ArithmeticException Si el denominador es cero el método dará error y lanzará una excepción.
 	 */
 	public static double divisionDosEnteros (int num1, int denom1) {
-		resultado=num1/denom1;
+		try {
+			resultado=num1/denom1;
+		}catch(Exception e) {
+			System.out.println("Error el denominador añadido es 0");
+		}
+		
 		return resultado ;
 	}
 	
@@ -41,7 +51,12 @@ public class Cociente {
 	 * @throws java.lang.ArithmeticException Si el numero es cero el método dará error y lanzará una excepción.
 	 */
 	public static double inverso (double numero) {
-		resultado=1/numero;
+		try {
+			resultado=1/numero;
+		}catch(Exception e) {
+			System.out.println("Error el denominador añadido es 0");
+		}
+		
 		return resultado ;
 	}
 	
