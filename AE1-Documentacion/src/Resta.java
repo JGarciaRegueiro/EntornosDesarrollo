@@ -10,8 +10,6 @@
 
 public class Resta {
 	
-	private static int resultadoInt=0;
-	private static double resultado=0;
 	/**
 	 *  valorAcumuladoResta es el valor real de la resta acumulada
 	 */
@@ -24,7 +22,7 @@ public class Resta {
 	 * @return devuelve el resultado de la operación num1-num2, y será de tipo double.
 	 */
 	public static double Resta2Reales(double num1, double num2) {
-		resultado=num1-num2;
+		double resultado=num1-num2;
 		return resultado;
 	}
 	
@@ -35,8 +33,8 @@ public class Resta {
 	 * @return devuelve el resultado de la operación num1-num2, y será de tipo entero
 	 */
 	public static int Resta2Enteros(int num1, int num2) {
-		resultadoInt=num1-num2;
-		return resultadoInt;
+		int resultado=num1-num2;
+		return resultado;
 	}
 
 	/**
@@ -47,7 +45,7 @@ public class Resta {
 	 * @return devuelve el resultado de la operación num1-num2-num3, y será de tipo double
 	 */
 	public static double Resta3Reales(double num1, double num2, double num3) {
-		resultado=num1-num2-num3;
+		double resultado=num1-num2-num3;
 		return resultado;
 	}
 
