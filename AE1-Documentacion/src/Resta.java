@@ -12,6 +12,9 @@ public class Resta {
 	
 	private static int resultadoInt=0;
 	private static double resultado=0;
+	/**
+	 *  valorAcumuladoResta es el valor real de la resta acumulada
+	 */
 	public static double valorAcumuladoResta=0;
 	
 	/**

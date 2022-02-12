@@ -20,6 +20,19 @@ public class Calculadora {
 		
 		System.out.println("-------------------------------------CALCULADORA-------------------------------------");
 		
+		//Posible main para probar los métodos de suma
+		
+		System.out.println(Suma.Suma2Reales(num1,num2));
+		Suma.acumulado(Suma.Suma2Reales(num1,num2));
+		System.out.println(Suma.valorAcumuladoSuma);
+		
+		System.out.println(Suma.Suma2Enteros(num4,num5));
+		Suma.acumulado(Suma.Suma2Enteros(num4,num5));
+		System.out.println(Suma.valorAcumuladoSuma);
+		
+		System.out.println(Suma.Suma3Reales(num1,num2,num3));
+		Suma.acumulado(Suma.Suma3Reales(num1,num2,num3));
+		System.out.println(Suma.valorAcumuladoSuma);
 		
 		//Posible main para probar los métodos de resta 
 		System.out.println(Resta.Resta2Reales(num1,num2));

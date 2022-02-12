@@ -9,17 +9,20 @@
  */
 
 public class Suma {
-      private double valorAcumuladoSuma=0;
-      private double resultado=0;
-      private int resultadoInt=0;
+	/**
+	 *  valorAcumuladoSuma es el valor real de la suma acumulada
+	 */
+	public static double valorAcumuladoSuma=0;
+     
  /**
  * Método que calculará la suma de dos números reales 
  * @param num1 representa el primer numero de tipo double.
  * @param num2 representa el segundo numero de tipo double.
  * @return devuelve el resultado de tipo double, dado de la operación num1+num2
  */
-    public double Suma2Reales(double num1, double num2){
-        resultado= num1+num2;
+    public  static double Suma2Reales(double num1, double num2){
+    	
+       double resultado= num1+num2;
 	return resultado;
   } 
 /**
@@ -28,9 +31,9 @@ public class Suma {
  * @param num2 representa el segundo numero de tipo entero.
  * @return devuelve el resultado de tipo entero, dado de la operación num1+num2
  */
-    public int Suma2Enteros(int num1, int num2){
-        resultadoInt= num1+num2;
-	return resultadoInt;
+    public  static int Suma2Enteros(int num1, int num2){
+        int resultado= num1+num2;
+	return resultado;
   } 
 /**
  * Método el cual sumará tres valores numerico de tipo real. 
@@ -39,8 +42,8 @@ public class Suma {
  * @param num3 representa el segundo numero de tipo double.
  * @return devuelve el resultado de tipo double, dado de la operación num1+num2+num3
  */
-    public double Suma3Reales(double num1, double num2, double num3){
-        resultado= num1+num2+num3;
+    public static double Suma3Reales(double num1, double num2, double num3){
+       double resultado= num1+num2+num3;
         return resultado;
     }
  /**
@@ -48,7 +51,7 @@ public class Suma {
   creado en la clase suma.
  * @param num representa valor numerico a introducir 
  */
-    public void acumulado (double num){
+    public static void acumulado (double num){
 	valorAcumuladoSuma= valorAcumuladoSuma + num;
     }
 }

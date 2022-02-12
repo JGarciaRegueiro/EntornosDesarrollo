@@ -35,7 +35,7 @@ public class Cociente {
 	}
 	
 	/**
-	 * Método que calcula la raíz de un número.
+	 * Método que calcula el inverso de un número.
 	 * @param numero representa el número real sobre el que se calcula el inverso, no puede ser cero.
 	 * @return devuelve un número real con el inverso de numero (1/numero). 
 	 * @throws java.lang.ArithmeticException Si el numero es cero el método dará error y lanzará una excepción.
