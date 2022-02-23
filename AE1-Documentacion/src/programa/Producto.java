@@ -1,3 +1,4 @@
+package programa;
 /**
 	 * Esta clase implementará todos los métodos que están relacionados 
 	 * con el producto y cáclulo de la potencia de un número.
