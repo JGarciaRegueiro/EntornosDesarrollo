@@ -1,3 +1,6 @@
+package programa;
+
+
 /**
  * Clase que se encarga de la división de números enteros y reales, calcula raíces e inversos de un número.
  * 
@@ -16,6 +19,7 @@ public class Cociente {
 	 * @return devuelve un número real con el resultado de la división del numerador/denominador. 
 	 * @throws java.lang.ArithmeticException Si el denominador es cero el método dará error y lanzará una excepción.
 	 */
+	
 	public static double divisionDosReales (double numerador, double denominador) {
 		try {
 			resultado=numerador/denominador;
@@ -36,7 +40,7 @@ public class Cociente {
 	 */
 	public static double divisionDosEnteros (int num1, int denom1) {
 		try {
-			resultado=num1/denom1;
+			resultado=(double)num1/denom1;//daba error porque no lo estabamos haciendo un cast a double
 		}catch(Exception e) {
 			System.out.println("Error el denominador añadido es 0");
 		}

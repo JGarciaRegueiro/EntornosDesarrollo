@@ -1,3 +1,4 @@
+package programa;
 /**
  * Esta clase implementará diferentes métodos que están relacionados 
    con la sumas de la calculadora.

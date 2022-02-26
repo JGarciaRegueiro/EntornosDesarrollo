@@ -1,3 +1,4 @@
+package programa;
 /**
 	 * Esta clase implementará todos los métodos que están relacionados 
 	 * con el producto y cáclulo de la potencia de un número.
@@ -23,7 +24,7 @@ public class Producto {
 	}
 	
 	/**
-	 * Método que calcula el producto de dos números reales. Devuelve otro número entero con la solución.
+	 * Método que calcula el producto de dos números enteros. Devuelve otro número entero con la solución.
 	 * @param num1 representa el primer número entero que se utiliza para calcular el producto.
 	 * @param num2 representa el segundo número entero que se utiliza para calcular el producto.
 	 * @return devuelve un número entero con el resultado del producto de num1xnum2.
