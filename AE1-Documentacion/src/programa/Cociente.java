@@ -40,7 +40,7 @@ public class Cociente {
 	 */
 	public static double divisionDosEnteros (int num1, int denom1) {
 		try {
-			resultado=num1/denom1;
+			resultado=(double)num1/denom1;//daba error porque no lo estabamos haciendo un cast a double
 		}catch(Exception e) {
 			System.out.println("Error el denominador añadido es 0");
 		}
