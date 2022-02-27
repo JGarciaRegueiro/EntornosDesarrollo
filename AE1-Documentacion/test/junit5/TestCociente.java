@@ -13,7 +13,6 @@ import programa.Cociente;
  * @author Daniel Jiménez Ballesteros
  * @version 1.0
  * Clase que realiza las pruebas de los métodos de la clase Cociente.
- * @return 
  */
 class TestCociente  {
 	
@@ -63,7 +62,7 @@ class TestCociente  {
 	}
 	
 	@Test
-	public void pruebaRaiz() throws java.lang.ArithmeticException{
+	public void pruebaRaiz() {
 		double numero = 2;
 		double valorEsperado = 1.4142;
 		double valorObtenido = Cociente.raiz(numero);
